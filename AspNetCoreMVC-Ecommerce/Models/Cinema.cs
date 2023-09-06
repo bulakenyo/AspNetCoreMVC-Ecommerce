@@ -1,9 +1,10 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using AspNetCoreMVC_Ecommerce.Data.Base;
+using System.ComponentModel.DataAnnotations;
 using System.Xml.Linq;
 
 namespace AspNetCoreMVC_Ecommerce.Models
 {
-    public class Cinema
+    public class Cinema :IEntityBase
     {
         [Key]
         public int Id { get; set; }

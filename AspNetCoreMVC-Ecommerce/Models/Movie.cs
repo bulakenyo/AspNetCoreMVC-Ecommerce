@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
+using AspNetCoreMVC_Ecommerce.Data.Enums;
 
 namespace AspNetCoreMVC_Ecommerce.Models
 {

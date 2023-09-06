@@ -1,10 +1,9 @@
-﻿using AspNetCoreMVC_Ecommerce.Data.Base;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.Xml.Linq;
 
 namespace AspNetCoreMVC_Ecommerce.Models
 {
-    public class Actor : IEntityBase
+    public class Producer
     {
         [Key]
         public int Id { get; set; }
@@ -23,6 +22,6 @@ namespace AspNetCoreMVC_Ecommerce.Models
         public string Bio { get; set; }
 
         //Relationships
-        public List<Actor_Movie> Actors_Movies { get; set; }
+        public List<Movie> Movies { get; set; }
     }
 }
